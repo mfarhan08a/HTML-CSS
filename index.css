@@ -1,0 +1,132 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	background-color: aliceblue;
+}
+
+.hero {
+	background: rgb(5, 12, 34);
+	background: linear-gradient(125deg, rgba(5, 12, 34, 1) 0%, rgba(31, 0, 170, 1) 100%);
+	height: 60vh;
+}
+
+.hero-text {
+	text-align: center;
+	color: white;
+	width: 60%;
+	margin: 0 auto;
+	padding-top: 8rem;
+	margin-bottom: 4rem;
+}
+
+.hero-text > h1 {
+	font-weight: 500;
+	font-size: 48pt;
+	margin-bottom: 12px;
+}
+
+.card-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+}
+
+.price {
+	padding: 2rem 0;
+	text-align: center;
+}
+
+.dollar {
+	text-decoration: none;
+	font-weight: 100;
+	position: absolute;
+}
+
+.value {
+	font-weight: 300;
+	font-size: 48pt;
+}
+
+.card-desc {
+	padding: 1rem 0;
+}
+
+.card {
+	width: 20%;
+	margin: 12px;
+	background-color: rgb(252, 255, 247);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-head {
+	background-color: rgb(34, 34, 35);
+	width: 100%;
+	padding: 12px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card-body {
+	padding: 20px;
+}
+
+.button-container {
+	text-align: center;
+}
+
+.buy-button {
+	appearance: button;
+	backface-visibility: hidden;
+	background-color: #405cf5;
+	border-radius: 6px;
+	border-width: 0;
+	box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset, rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+	box-sizing: border-box;
+	color: #fff;
+	cursor: pointer;
+	font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+	font-size: 100%;
+	height: 36px;
+	line-height: 1.15;
+	margin: 12px 0 0;
+	outline: none;
+	overflow: hidden;
+	padding: 0 25px;
+	text-align: center;
+	text-transform: none;
+	transform: translateZ(0);
+	transition: all 0.2s, box-shadow 0.08s ease-in;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	width: 50%;
+}
+
+.buy-button:focus {
+	box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset, rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
+		rgba(50, 151, 211, 0.3) 0 0 0 4px;
+}
+
+.faq {
+	width: 60%;
+	margin: 0 auto;
+	padding: 24rem 0 10rem 0;
+}
+.faq > h1 {
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+.faq-container {
+	display: flex;
+}
+
+.faq-item {
+	padding: 1rem;
+}
