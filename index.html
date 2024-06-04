@@ -17,7 +17,7 @@
 				</p>
 			</div>
 			<div class="card-container">
-				<div class="card">
+				<div class="card" onclick="selectCard()">
 					<div class="card-head">
 						<h3>BASIC</h3>
 					</div>
@@ -32,11 +32,11 @@
 							<p>10 project</p>
 						</div>
 						<div class="button-container">
-							<button class="buy-button">Buy Now</button>
+							<button class="buy-button" onclick="succesButton()">Buy Now</button>
 						</div>
 					</div>
 				</div>
-				<div class="card">
+				<div class="card" onclick="selectCard()">
 					<div class="card-head">
 						<h3>STANDARD</h3>
 						<p>Save 15%</p>
@@ -52,11 +52,11 @@
 							<p>10 project</p>
 						</div>
 						<div class="button-container">
-							<button class="buy-button">Buy Now</button>
+							<button class="buy-button" onclick="succesButton()">Buy Now</button>
 						</div>
 					</div>
 				</div>
-				<div class="card">
+				<div class="card" onclick="selectCard()">
 					<div class="card-head">
 						<h3>ADVANCED</h3>
 					</div>
@@ -71,7 +71,7 @@
 							<p>10 project</p>
 						</div>
 						<div class="button-container">
-							<button class="buy-button">Buy Now</button>
+							<button class="buy-button" onclick="succesButton()">Buy Now</button>
 						</div>
 					</div>
 				</div>
@@ -100,4 +100,13 @@
 			</div>
 		</div>
 	</body>
+	<script>
+		function succesButton() {
+			alert("Success!");
+		}
+
+		function selectCard() {
+			alert("A card is selected");
+		}
+	</script>
 </html>
